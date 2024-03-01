@@ -10,13 +10,13 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: #565454;
+  background-color: #121A2F;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   margin-top: 40rem;
-  font-size: 4rem;
-  color: #fed9ed;
+  font-size: 6rem;
+  color: #E81D61;
 }

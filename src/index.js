@@ -1,14 +1,12 @@
-//ask user for two numbers
-let number1 = Number(prompt('Enter your first number'));
-let number2 = Number(prompt('Enter your second number'));
+let number1 = Number(prompt('Enter Your First number'));
+let number2 = Number(prompt('Enter your Second number'));
 
 while (isNaN(number1) || isNaN(number2)) {
-  number1 = Number(prompt('Enter your first number'));
-  number2 = Number(prompt('Enter your second number'));
+  number1 = Number(prompt('Enter Your First Number'));
+  number2 = Number(prompt('Enter Your Second Number'));
 }
-
-//ask user for the type of operation     
-let operation = prompt('Choose the operation: +, -, *, /, ^, % (remainder)');
+   
+let operation = prompt('Choose The Operation: +, -, *, /, ^, % (remainder)');
 
 let result;
 if (operation === '+') {
@@ -24,8 +22,7 @@ if (operation === '+') {
 } else if (operation === '%') {
   result = number1 % number2;
 } else {
-  result = 'Invalid operation';
+  result = 'Invalid Operation!';
 }
 
-//Display the result to the user
 alert(`The result of your operation is: ${result}`);
